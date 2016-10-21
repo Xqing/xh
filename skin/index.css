@@ -1,0 +1,478 @@
+.header {
+  height: 118px;
+  width: 100%;
+  background: url("i/i-bg.png") no-repeat center #cbb57e;
+}
+.header .header-wrapper {
+  width: 970px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header .header-wrapper .logo {
+  width: 356px;
+  height: 100%;
+  float: left;
+  background: url("i/i-logo.png") no-repeat center;
+  cursor: pointer;
+}
+.header .header-wrapper .logo a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.header .header-wrapper .search {
+  width: 270px;
+  height: 30px;
+  border-radius: 3px;
+  overflow: hidden;
+  float: right;
+  margin-top: 55px;
+}
+.header .header-wrapper .search .search-input {
+  width: 200px;
+  border: 1px solid #a0a0a0;
+  box-sizing: border-box;
+  height: 30px;
+}
+.header .header-wrapper .search .search-btn {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #c31314;
+  color: #ffffff;
+  float: right;
+  font-size: 16px;
+}
+.menu {
+  height: 45px;
+  line-height: 45px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  background-color: #c31314;
+}
+.menu .menu-wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+.menu .menu-wrapper li {
+  float: left;
+  width: 12.5%;
+  text-align: center;
+  cursor: pointer;
+}
+.menu .menu-wrapper li a {
+  display: block;
+  color: #ffffff;
+}
+.banner {
+  height: 101px;
+  width: 100%;
+}
+.banner .img-area img {
+  height: 100%;
+}
+.content .content-wrapper .content-part1 .content-part1-wrapper {
+  overflow: hidden;
+  height: 260px;
+  width: 970px;
+  margin: 28px auto;
+}
+.content .content-wrapper .content-part1 .img-area {
+  width: 545px;
+  height: 100%;
+  float: left;
+}
+.content .content-wrapper .content-part1 .img-area img {
+  width: 100%;
+  height: 100%;
+}
+.content .content-wrapper .content-part1 .news-main {
+  padding-left: 48px;
+  float: left;
+  width: 425px;
+}
+.content .content-wrapper .content-part1 .news-main .news-title {
+  color: #c31314;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 2;
+}
+.content .content-wrapper .content-part1 .news-main .news-summary {
+  font-size: 14px;
+  color: #999999;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.content .content-wrapper .content-part1 .news-main .news-list {
+  margin-top: 10px;
+}
+.content .content-wrapper .content-part1 .news-main .news-list li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #666666;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 20px;
+  position: relative;
+}
+.content .content-wrapper .content-part1 .news-main .news-list li a {
+  color: #666666;
+}
+.content .content-wrapper .content-part1 .news-main .news-list li:before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+.content .content-wrapper .content-part2 {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+.content .content-wrapper .content-part2 .content-part2-wrapper {
+  overflow: hidden;
+  width: 970px;
+  margin: 0 auto;
+}
+.content .content-wrapper .content-part2 .item {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.content .content-wrapper .content-part2 .item:nth-child(2) {
+  margin: 0 5%;
+}
+.content .content-wrapper .content-part2 .item .title {
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+}
+.content .content-wrapper .content-part2 .item .title .cntitle {
+  color: #594700;
+  font-size: 24px;
+  font-weight: bold;
+}
+.content .content-wrapper .content-part2 .item .title .entitle {
+  color: #b29f55;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+.content .content-wrapper .content-part2 .item .title .more {
+  float: right;
+  color: #c31314;
+  font-size: 14px;
+}
+.content .content-wrapper .content-part2 .item .img-area {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.content .content-wrapper .content-part2 .item .img-area img {
+  height: 109px;
+  width: 303px;
+}
+.content .content-wrapper .content-part2 .item .txt-area {
+  text-align: left;
+  margin-top: 10px;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.arrows li {
+  width: 303px;
+  margin: 0 auto;
+  color: #666666;
+  line-height: 2;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  padding-left: 15px;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.arrows li:before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-top: 1px solid #666666;
+  border-right: 1px solid #666666;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  left: 0;
+  top: 11px;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.arrows li a {
+  color: #666666;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.number li a {
+  display: block;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.number .list-num {
+  width: 38px;
+  height: 39px;
+  line-height: 39px;
+  background-color: #f0f0f0;
+  color: #cacaca;
+  border-radius: 3px;
+  font-weight: bold;
+  font-style: italic;
+  float: left;
+  margin-top: 7px;
+  padding-left: 7px;
+  font-size: 29px;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.number .title {
+  margin-left: 45px;
+  font-size: 15px;
+  color: #626262;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part2 .item .txt-area ul.number .date {
+  margin-left: 45px;
+  font-size: 13.5px;
+  color: #cccccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 {
+  background-color: #ffffff;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper {
+  width: 970px;
+  margin: 0 auto 28px auto;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .title {
+  text-align: left;
+  line-height: 2.5;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .title .cntitle {
+  color: #594700;
+  font-size: 24px;
+  font-weight: bold;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .title .entitle {
+  color: #b29f55;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays {
+  width: 68%;
+  float: left;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .title {
+  border-bottom: 5px solid #ac0008;
+  padding-left: 45px;
+  position: relative;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .title:before {
+  content: "";
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: url("i/i-title.png") no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 17px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main {
+  margin-top: 20px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .img-area {
+  height: 288px;
+  width: 485px;
+  float: left;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .img-area img {
+  height: 100%;
+  width: 100%;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area {
+  float: left;
+  width: 170px;
+  height: 288px;
+  background-color: #eeeeee;
+  padding: 20px;
+  overflow: hidden;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area .txt-title {
+  font-size: 12px;
+  color: #626262;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area .txt-red {
+  font-size: 12px;
+  color: #626262;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area .txt-red .red {
+  color: #ac0008;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area .txt-main {
+  font-size: 12px;
+  color: #999999;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-main .txt-area .more {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ac0008;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list {
+  margin-top: 16px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item {
+  width: 208px;
+  float: left;
+  border-bottom: 2px solid #dbdbdb;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item:nth-child(2) {
+  margin: 0 16px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item .img-area {
+  width: 100%;
+  height: 150px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item .img-area img {
+  height: 100%;
+  width: 100%;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item .txt-area {
+  background-color: #eeeeee;
+  padding-left: 18px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item .txt-area .list-title {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .plays .plays-list .item .txt-area .list-sum {
+  font-size: 12px;
+  color: #999999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes {
+  margin-left: 16px;
+  float: left;
+  width: 30%;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .title {
+  border-bottom: 5px solid #ac0008;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main {
+  margin-top: 8px;
+  height: 230px;
+  overflow: hidden;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main ul li:before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-top: 1px solid #666666;
+  border-right: 1px solid #666666;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  left: 0;
+  top: 11px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main ul li .notes-title {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main ul li .notes-date {
+  color: #cccccc;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .notes .main ul li .exchange-title {
+  line-height: 2;
+  color: #666666;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange {
+  margin-left: 16px;
+  float: left;
+  width: 30%;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange .title {
+  border-bottom: 5px solid #ac0008;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange .main {
+  margin-top: 8px;
+  height: 195px;
+  overflow: hidden;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange .main ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange .main ul li:before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-top: 1px solid #666666;
+  border-right: 1px solid #666666;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  left: 0;
+  top: 11px;
+}
+.content .content-wrapper .content-part3 .content-part3-wrapper .exchange .main ul li .exchange-title {
+  line-height: 2;
+  color: #666666;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
